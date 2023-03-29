@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,19 @@
     <link rel="stylesheet" href="./style.css">
     <title>DetectKeyPressed</title>
 </head>
+
 <body>
-    <div class="d-block">
-        <div class="box">
-            <!-- <p class="text">Press any key: </p> -->
-            <div class="content">
-                <div class="key-code"></div>
-                <div class="key-name"></div>
-                <div class="details">
-                    <p class="key">Key: <span></span></p>
-                    <p class="code">Code: <span></span></p>
-                </div>
-            </div>
-        </div>
+    <div>
+        <p>
+            <label>Keystrokes Count: </label>
+            <span id="keystrokes">0</span>
+        </p>
+        <p>
+            <label>Last Key Pressed: </label>
+            <span id="last-key"></span>
+        </p>
     </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
