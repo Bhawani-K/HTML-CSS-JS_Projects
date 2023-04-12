@@ -1,5 +1,5 @@
 body {
-    background: url('./leaves.jpg');
+    background: url('../z_Images/leaves.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -17,7 +17,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./leaves.jpg');
+    background-image: url('../z_Images/leaves.jpg');
     filter: blur(10px);
     opacity: 0.8;
     z-index: -1;
